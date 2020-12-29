@@ -10,6 +10,8 @@ One of the main purposes of this project is to try out how un/suitable
 
 ## Installation
 
+**The instructions below won't work, the gem has not been released yet.**
+
 Add this line to your application's Gemfile:
 
 ```ruby
