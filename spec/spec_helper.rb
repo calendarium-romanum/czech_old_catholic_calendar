@@ -1,6 +1,8 @@
 require "bundler/setup"
 require "czech_old_catholic_calendar"
 
+require 'calendarium-romanum/cr'
+
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
   config.example_status_persistence_file_path = ".rspec_status"

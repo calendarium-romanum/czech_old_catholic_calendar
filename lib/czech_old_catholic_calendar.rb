@@ -1,6 +1,10 @@
+require 'calendarium-romanum'
+
 require "czech_old_catholic_calendar/version"
 
 module CzechOldCatholicCalendar
-  class Error < StandardError; end
-  # Your code goes here...
+  include CalendariumRomanum
 end
+
+# convenience shortcut
+COCC = CzechOldCatholicCalendar
