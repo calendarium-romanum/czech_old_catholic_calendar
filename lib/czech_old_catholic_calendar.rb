@@ -2,6 +2,9 @@ require 'calendarium-romanum'
 
 module CzechOldCatholicCalendar
   include CalendariumRomanum
+
+  class Temporale < CalendariumRomanum::Temporale
+  end
 end
 
 require 'czech_old_catholic_calendar/version'
