@@ -63,7 +63,7 @@ locale: cs
 13 : Antonína z Padovy, kněze
 15 : Víta, mučedníka
 21 : Mučedníků svobody víry
-24 : Narození Jana Křtitele
+24 s : Narození Jana Křtitele
 27 : Cyrila z Alexandrie, biskupa a učitele církve
 28 : Ireneje, biskupa a mučedníka
 29 s : Petra a Pavla, apoštolů
@@ -115,7 +115,7 @@ locale: cs
 3 : Pavla Švandy, mučedníka
 4 : Františka z Assisi
 6 : Bruna, kněze
-9 : Vintíře z Niederalteichu, mučedníka
+9 : Vintíře z Niederalteichu, poustevníka
 12 : Radima, biskupa
 15 : Terezie z Avily, učitelky církve
 16 : Hedviky, řeholnice
@@ -125,7 +125,7 @@ locale: cs
 
 = 11
 1 s : Všech svatých
-2 : Památka zemřelých
+2 m : Památka zemřelých
 7 : Wilibrorda z Utrechtu, biskupa a misionáře
 10 : Lva Velikého, biskupa a učitele církve
 11 : Martina z Tours, biskupa
@@ -137,7 +137,7 @@ locale: cs
 
 = 12
 4 : Barbory, mučednice
-5 : Mikuláše, biskupa
+6 : Mikuláše, biskupa
 7 : Ambrože, biskupa a učitele církve
 13 : Lucie, mučednice
 14 : Jana od Kříže, učitele církve
