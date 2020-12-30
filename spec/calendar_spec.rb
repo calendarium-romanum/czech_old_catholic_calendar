@@ -20,6 +20,14 @@ RSpec.describe COCC::Calendar do
         expect(day.celebrations.first).to be_ferial
       end
 
+      it 'Christ the King' do
+        date = CalendariumRomanum::Temporale::Dates.christ_king year
+        day = calendar[date]
+
+        expect(day.celebrations.size).to be 1
+        expect(day.celebrations.first).to be_sunday
+      end
+
       it 'Saturday memorial of BVM' do
         saturdays = calendar.each.select {|day| day.date.saturday? }
 

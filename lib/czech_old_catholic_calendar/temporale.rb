@@ -26,7 +26,7 @@ module CzechOldCatholicCalendar
               :corpus_christi,
               # :mother_of_church,
               # :sacred_heart,
-              :christ_king,
+              # :christ_king,
               # :immaculate_heart,
             ].collect do |symbol|
               date_method = symbol
