@@ -11,6 +11,37 @@ RSpec.describe COCC::Calendar do
   end
 
   describe 'notable differences from CalendariumRomanum::Calendar' do
+    describe 'there is no downgrading of memorials to commemorations in privileged seasons' do
+      it 'octave of Christmas' do
+        day = calendar[Date.new(2017, 12, 29)]
+        expect(day.celebrations.size).to be 1
+
+        c = day.celebrations.first
+        expect(c.cycle).to be :sanctorale
+        expect(c.rank).to be COCC::Ranks::MEMORIAL_GENERAL
+        expect(c.title).to include 'Becketa' # TODO symbol
+      end
+
+      it 'Lent' do
+        day = calendar[Date.new(2018, 3, 7)]
+        expect(day.celebrations.size).to be 2
+
+        expect(day.celebrations[0]).to be_ferial
+        expect(day.celebrations[1]).to be_memorial
+        expect(day.celebrations[1].title).to include 'Perpetuy a Felicity'
+      end
+    end
+
+    it 'solemnity of New Year' do
+      day = calendar[Date.new(2018, 1, 1)]
+      expect(day.celebrations.size).to be 2
+      # two solemnities on a single day - Roman calendar does not allow this
+      expect(day.celebrations).to all(be_solemnity)
+
+      expect(day.celebrations[0].title).to include 'Panny Marie' # TODO symbol
+      expect(day.celebrations[1].title).to include 'Nový rok' # TODO symbol
+    end
+
     describe '"temporale" celebrations not inherited' do
       it 'Sacred Heart of Jesus' do
         date = CalendariumRomanum::Temporale::Dates.sacred_heart year
@@ -45,6 +76,13 @@ RSpec.describe COCC::Calendar do
       end
     end
 
+    it '2nd Sunday in Ordinary Time has a special name' do
+      day = calendar[Date.new(2018, 1, 14)]
+
+      expect(day.celebrations.first.title)
+        .to eq '2. neděle v mezidobí - Svatby v Káně'
+    end
+
     # TODO: move to Temporale specs
     describe 'different names for Temporale celebrations' do
       it 'ferials in Ordinary Time' do
@@ -60,6 +98,22 @@ RSpec.describe COCC::Calendar do
           day = calendar[Date.new(2018, 4, 3)]
           expect(day.celebrations.first.title)
             .to eq 'Úterý velikonoční'
+        end
+      end
+    end
+
+    describe 'transfering Annunciation' do
+      [
+        Date.new(2008, 3, 26), # collided with a Sunday of Lent
+        Date.new(2018, 4, 9), # collided with Palm Sunday; Roman calendar transfers to an earlier date, Old Catholic one does not
+      ].each do |date|
+        it date.year do
+          calendar = described_class.new(date.year - 1, sanctorale)
+          day = calendar[date]
+
+          expect(day.celebrations.size).to be 1
+          expect(day.celebrations.first).to be_solemnity
+          expect(day.celebrations.first.symbol).to be :annunciation
         end
       end
     end
