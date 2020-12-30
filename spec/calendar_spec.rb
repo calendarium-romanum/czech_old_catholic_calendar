@@ -104,7 +104,11 @@ RSpec.describe COCC::Calendar do
 
     describe 'transfering Annunciation' do
       [
+        # 2007
         Date.new(2008, 3, 26), # collided with a Sunday of Lent
+        # 2012
+        # 2013
+        Date.new(2016, 4, 4), # collided with Good Friday
         Date.new(2018, 4, 9), # collided with Palm Sunday; Roman calendar transfers to an earlier date, Old Catholic one does not
       ].each do |date|
         it date.year do
