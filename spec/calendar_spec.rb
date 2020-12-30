@@ -76,11 +76,22 @@ RSpec.describe COCC::Calendar do
       end
     end
 
-    it '2nd Sunday in Ordinary Time has a special name' do
-      day = calendar[Date.new(2018, 1, 14)]
+    describe 'Sunday special names' do
+      it '2nd Sunday in Ordinary Time' do
+        day = calendar[Date.new(2018, 1, 14)]
 
-      expect(day.celebrations.first.title)
-        .to eq '2. neděle v mezidobí - Svatby v Káně'
+        expect(day.celebrations.first.title)
+          .to eq '2. neděle v mezidobí - Svatby v Káně'
+      end
+
+      it '34th Sunday in Ordinary Time' do
+        day = calendar[Date.new(2018, 11, 25)]
+
+        # 2017 mentionned only in the list of movable feasts at the beginning,
+        # not in the calendar entry, but ordos for other years have it in the entry, too
+        expect(day.celebrations.first.title)
+          .to eq '34. neděle v mezidobí - Opětného příchodu Páně'
+      end
     end
 
     # TODO: move to Temporale specs
