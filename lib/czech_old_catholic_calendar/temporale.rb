@@ -25,7 +25,7 @@ module CzechOldCatholicCalendar
               :holy_trinity,
               :corpus_christi,
               # :mother_of_church,
-              :sacred_heart,
+              # :sacred_heart,
               :christ_king,
               # :immaculate_heart,
             ].collect do |symbol|

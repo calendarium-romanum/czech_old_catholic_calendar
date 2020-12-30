@@ -12,6 +12,14 @@ RSpec.describe COCC::Calendar do
 
   describe 'notable differences from CalendariumRomanum::Calendar' do
     describe '"temporale" celebrations not inherited' do
+      it 'Sacred Heart of Jesus' do
+        date = CalendariumRomanum::Temporale::Dates.sacred_heart year
+        day = calendar[date]
+
+        expect(day.celebrations.size).to be 1
+        expect(day.celebrations.first).to be_ferial
+      end
+
       it 'Saturday memorial of BVM' do
         saturdays = calendar.each.select {|day| day.date.saturday? }
 
