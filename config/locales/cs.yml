@@ -1,0 +1,4 @@
+cs:
+  temporale:
+    ordinary:
+      ferial: '%{weekday} po %{week} neděli v mezidobí'
