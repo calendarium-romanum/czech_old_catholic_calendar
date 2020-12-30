@@ -7,6 +7,7 @@ end
 require 'czech_old_catholic_calendar/version'
 require 'czech_old_catholic_calendar/data'
 require 'czech_old_catholic_calendar/temporale'
+require 'czech_old_catholic_calendar/calendar'
 
 # convenience shortcut
 COCC = CzechOldCatholicCalendar
