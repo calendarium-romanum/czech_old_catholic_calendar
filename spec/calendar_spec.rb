@@ -16,11 +16,22 @@ RSpec.describe COCC::Calendar do
         .to be nil
     end
 
-    it 'different names for ferials in Ordinary Time' do
-      I18n.with_locale(:cs) do
-        day = calendar[Date.new(2018, 2, 13)]
-        expect(day.celebrations.first.title)
-          .to eq 'Úterý po 6. neděli v mezidobí'
+    # TODO: move to Temporale specs
+    describe 'different names for Temporale celebrations' do
+      it 'ferials in Ordinary Time' do
+        I18n.with_locale(:cs) do
+          day = calendar[Date.new(2018, 2, 13)]
+          expect(day.celebrations.first.title)
+            .to eq 'Úterý po 6. neděli v mezidobí'
+        end
+      end
+
+      it 'days of the Easter Octave' do
+        I18n.with_locale(:cs) do
+          day = calendar[Date.new(2018, 4, 3)]
+          expect(day.celebrations.first.title)
+            .to eq 'Úterý velikonoční'
+        end
       end
     end
   end
