@@ -3,4 +3,4 @@ title: kalendář farnosti Praha
 extends: general.txt
 ---
 
-5/3 : Nalezení svatého Kříže
+5/3 s : Nalezení svatého Kříže

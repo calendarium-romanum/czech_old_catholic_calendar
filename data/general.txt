@@ -11,36 +11,36 @@ locale: cs
 20 : Fabiána a Šebestiána, mučedníků
 21 : Anežky Římské, mučednice
 22 : Vincence, jáhna a mučedníka
-25 : Obrácení apoštola Pavla
+25 f : Obrácení apoštola Pavla
 26 : Timoteje a Tita, biskupů
 28 : Tomáše Akvinského, kněze a učitele církve
 
 = 2
-2 : Uvedení Páně do chrámu
+2 f : Uvedení Páně do chrámu
 3 : Blažeje ze Sebasty, biskupa a mučedníka
 5 : Agáty, mučednice
 10 : Scholastiky z Nursie, řeholnice
 23 : Polykarpa ze Smyrny, biskupa a mučedníka
 23 : Přemysla Coufala, kněze a mučedníka
-24 : Matěje, apoštola
+24 f : Matěje, apoštola
 25 : Josefa Toufara, kněze a mučedníka
 
 = 3
 7 : Perpetuy a Felicity, mučednic
 17 : Patrika, biskupa a misionáře
 18 : Cyrila Jeruzalémského, biskupa a učitele církve
-19 : Josefa z Nazaretu
-25 : Zvěstování Páně
+19 f : Josefa z Nazaretu
+25 s : Zvěstování Páně
 
 = 4
 11 : Stanislava z Krakova, biskupa a mučedníka
-23 : Vojtěcha, biskupa a mučedníka
+23 f : Vojtěcha, biskupa a mučedníka
 24 : Jiřího, mučedníka
-25 : Marka, evangelisty
+25 f : Marka, evangelisty
 29 : Kateřiny Sienské, učitelky církve
 
 = 5
-1 : Filipa a Jakuba, apoštolů
+1 f : Filipa a Jakuba, apoštolů
 2 : Athanasia, biskupa a učitele církve
 12 : Achillea, Nerea a Pankráce, mučedníků
 16 : Jana Nepomuckého, kněze a mučedníka
@@ -59,55 +59,55 @@ locale: cs
 6 : Norberta, biskupa
 9 : Efréma Syrského, jáhna a učitele církve
 10 : Josefa Štemberky z Lidic, mučedníka
-11 : Barnabáše, apoštola
+11 f : Barnabáše, apoštola
 13 : Antonína z Padovy, kněze
 15 : Víta, mučedníka
 21 : Mučedníků svobody víry
 24 : Narození Jana Křtitele
 27 : Cyrila z Alexandrie, biskupa a učitele církve
 28 : Ireneje, biskupa a mučedníka
-29 : Petra a Pavla, apoštolů
+29 s : Petra a Pavla, apoštolů
 
 = 7
-3 : Tomáše, apoštola
+3 f : Tomáše, apoštola
 4 : Prokopa, opata sázavského
-5 : Cyrila a Metoděje, apoštolů Slovanů
-6 : Jana Husa a Jeronýma Pražského, mučedníků
+5 f : Cyrila a Metoděje, apoštolů Slovanů
+6 f : Jana Husa a Jeronýma Pražského, mučedníků
 11 : Benedikta, opata
 13 : Markéty z Antiochie, mučednice
 15 : Rozeslání apoštolů
 22 : Marie z Magdaly
-25 : Jakuba Staršího, apoštola
+25 f : Jakuba Staršího, apoštola
 26 : Jáchyma a Anny, rodičů Panny Marie
 27 : Gorazda, Klimenta, Nauma, Angelára a Sávy
 29 : Marty, Marie a Lazara z Betánie
 
 = 8
-6 : Proměnění Páně
+6 f : Proměnění Páně
 8 : Dominika, kněze
-10 : Vavřince, jáhna, patrona katedrálního chrámu
+10 f : Vavřince, jáhna, patrona katedrálního chrámu
 11 : Kláry z Assisi
 13 : Hippolyta, biskupa a mučedníka
 14 : Maxmiliána Kolbeho, mučedníka
-15 : Úmrtí Panny Marie
+15 s : Úmrtí Panny Marie
 16 : Bratra Rogera z Taizé
 20 : Bernarda z Clairvaux, opata
-24 : Bartoloměje, apoštola
+24 f : Bartoloměje, apoštola
 27 : Moniky
 28 : Augustina z Hippo, biskupa a učitele církve
 29 : Umučení Jana Křtitele
 
 = 9
 3 : Řehoře, biskupa a učitele církve
-8 : Narození Panny Marie
+8 f : Narození Panny Marie
 13 : Jana Zlatoústého, biskupa a učitele církve
-14 : Svátek svatého Kříže
+14 f : Svátek svatého Kříže
 16 : Ludmily, mučednice
 17 : Cypriána z Kartága, biskupa, učitele církve a mučedníka
-21 : Matouše, apoštola a evangelisty
+21 f : Matouše, apoštola a evangelisty
 27 : Kosmy a Damiána, mučedníků
-28 : Václava, mučedníka
-29 : Michaela, Gabriela a Rafaela a všech andělů
+28 s : Václava, mučedníka
+29 f : Michaela, Gabriela a Rafaela a všech andělů
 30 : Jeronýma, kněze a učitele církve
 
 = 10
@@ -120,11 +120,11 @@ locale: cs
 15 : Terezie z Avily, učitelky církve
 16 : Hedviky, řeholnice
 17 : Ignáce z Antiochie, biskupa a mučedníka
-18 : Lukáše, evangelisty
+18 f : Lukáše, evangelisty
 28 : Šimona a Judy Tadeáše, apoštolů
 
 = 11
-1 : Všech svatých
+1 s : Všech svatých
 2 : Památka zemřelých
 7 : Wilibrorda z Utrechtu, biskupa a misionáře
 10 : Lva Velikého, biskupa a učitele církve
@@ -133,7 +133,7 @@ locale: cs
 22 : Cecílie, mučednice
 23 : Klementa Římského, biskupa a mučedníka
 25 : Kateřiny z Alexandrie, mučednice
-30 : Ondřeje, apoštola
+30 f : Ondřeje, apoštola
 
 = 12
 4 : Barbory, mučednice
@@ -141,8 +141,9 @@ locale: cs
 7 : Ambrože, biskupa a učitele církve
 13 : Lucie, mučednice
 14 : Jana od Kříže, učitele církve
-26 : Štěpána, jáhna, prvního mučedníka
-27 : Jana, apoštola a evangelisty
-28 : Betlémských dětí, mučedníků
-29 : Tomáše Becketa, biskupa a mučedníka
-
+26 f : Štěpána, jáhna, prvního mučedníka
+27 f : Jana, apoštola a evangelisty
+28 f : Betlémských dětí, mučedníků
+29 m : Tomáše Becketa, biskupa a mučedníka
+# at least according to the 2017 ordo Thomas Becket seems to be the only obligatory memorial
+# on the calendar
