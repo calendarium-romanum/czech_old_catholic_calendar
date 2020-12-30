@@ -115,8 +115,8 @@ RSpec.describe COCC::Calendar do
 
     describe 'transfering Annunciation' do
       [
-        # 2007
-        Date.new(2008, 3, 26), # collided with a Sunday of Lent
+        Date.new(2007, 3, 26), # collided with a Sunday of Lent
+        Date.new(2008, 3, 31), # collided with Easter Octave; haven't seen an official Old Catholic ordo for this year, but the date is 90% correct
         # 2012
         # 2013
         Date.new(2016, 4, 4), # collided with Good Friday
@@ -128,7 +128,7 @@ RSpec.describe COCC::Calendar do
 
           expect(day.celebrations.size).to be 1
           expect(day.celebrations.first).to be_solemnity
-          expect(day.celebrations.first.symbol).to be :annunciation
+          expect(day.celebrations.first.title).to include 'Zvěstování Páně' # TODO symbol
         end
       end
     end

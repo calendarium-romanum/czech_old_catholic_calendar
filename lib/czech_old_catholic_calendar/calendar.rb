@@ -10,7 +10,7 @@ module CzechOldCatholicCalendar
       #   (and then having to re-generate transfers)
       @temporale = temporale || Temporale.new(year)
 
-      @transferred = CalendariumRomanum::Transfers.call(@temporale, @sanctorale).freeze
+      @transferred = Transfers.call(@temporale, @sanctorale).freeze
     end
 
     def day(*args, vespers: false)
