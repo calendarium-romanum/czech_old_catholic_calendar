@@ -2,6 +2,9 @@ cs:
   temporale:
     ordinary:
       ferial: '%{weekday} po %{week} neděli v mezidobí'
+      sunday_name:
+        '2': Svatby v Káně
+        '34': Opětného příchodu Páně
     easter:
       octave:
         ferial: '%{weekday} velikonoční'

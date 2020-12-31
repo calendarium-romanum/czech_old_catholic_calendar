@@ -76,6 +76,7 @@ RSpec.describe COCC::Calendar do
       end
     end
 
+    # TODO: move to Temporale specs
     describe 'Sunday special names' do
       it '2nd Sunday in Ordinary Time' do
         day = calendar[Date.new(2018, 1, 14)]
@@ -97,19 +98,15 @@ RSpec.describe COCC::Calendar do
     # TODO: move to Temporale specs
     describe 'different names for Temporale celebrations' do
       it 'ferials in Ordinary Time' do
-        I18n.with_locale(:cs) do
-          day = calendar[Date.new(2018, 2, 13)]
-          expect(day.celebrations.first.title)
-            .to eq 'Úterý po 6. neděli v mezidobí'
-        end
+        day = calendar[Date.new(2018, 2, 13)]
+        expect(day.celebrations.first.title)
+          .to eq 'Úterý po 6. neděli v mezidobí'
       end
 
       it 'days of the Easter Octave' do
-        I18n.with_locale(:cs) do
-          day = calendar[Date.new(2018, 4, 3)]
-          expect(day.celebrations.first.title)
-            .to eq 'Úterý velikonoční'
-        end
+        day = calendar[Date.new(2018, 4, 3)]
+        expect(day.celebrations.first.title)
+          .to eq 'Úterý velikonoční'
       end
     end
 

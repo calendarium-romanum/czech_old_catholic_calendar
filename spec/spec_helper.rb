@@ -14,3 +14,6 @@ RSpec.configure do |config|
     c.syntax = :expect
   end
 end
+
+# Czech Old Catholic Church calendar is usually not needed in any other language
+I18n.locale = :cs
