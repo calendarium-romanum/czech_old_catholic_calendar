@@ -53,6 +53,11 @@ Very incomplete. So far I haven't found any real formal specification of the cal
 and I'm not even sure if it exists. A lot can probably be deduced from the missal,
 but I don't own it and libraries are closed, so it will take some time.
 
+## License
+
+`czech_roman_catholic_calendar` is free software under the terms of the MIT license
+(see [LICENSE](/LICENSE)).
+
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
