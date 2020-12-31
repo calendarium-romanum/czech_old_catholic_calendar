@@ -8,6 +8,15 @@ functionality of the [calendarium-romanum][caro] gem is reused as much as possib
 (In fact, one of the main purposes of this project is to try out how un/suitable
 [calendarium-romanum][caro] is for such projects.)
 
+## Status
+
+Based on comparison of computed results with official ordo published by the church
+([2015](https://docplayer.cz/26220917-Liturgicky-kalendar-2015-2016-biskupsky-ordinariat-starokatolicke-cirkve-v-cr-praha-2015.html),
+[2016](https://docplayer.cz/45554176-Liturgicky-kalendar-2016-2017.html),
+[2017](https://docplayer.cz/68322372-Liturgicky-kalendar-2017-2018-praha-2017.html)),
+the library seems to be feature-complete, or at least very close to it.
+Bug reports are welcome.
+
 ## Installation
 
 **The instructions below won't work, the gem has not been released yet.**
@@ -46,12 +55,6 @@ calendar = CzechOldCatholicCalendar::PerpetualCalendar.new(sanctorale: sanctoral
 # retrieve liturgical details of today
 day = calendar[Date.today]
 ```
-
-## Status
-
-Very incomplete. So far I haven't found any real formal specification of the calendar
-and I'm not even sure if it exists. A lot can probably be deduced from the missal,
-but I don't own it and libraries are closed, so it will take some time.
 
 ## License
 
