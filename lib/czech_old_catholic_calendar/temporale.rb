@@ -58,5 +58,15 @@ module CzechOldCatholicCalendar
 
       r
     end
+
+    def ferial(date)
+      r = super(date)
+
+      if r.rank == CzechOldCatholicCalendar::Ranks::FERIAL_PRIVILEGED
+        return r.change(rank: CzechOldCatholicCalendar::Ranks::FERIAL)
+      end
+
+      r
+    end
   end
 end
