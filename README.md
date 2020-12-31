@@ -38,6 +38,7 @@ require 'czech_old_catholic_calendar'
 
 # GENERAL can be replaced with PRAHA or SUMPERK in order to get proper celebrations
 # of the parishes of Prague and Sumperk, respectively
+# (the only two parishes with proper celebrations listed in the calendar of the 2007 missal)
 sanctorale = CzechOldCatholicCalendar::Data::GENERAL.load_with_parents
 
 calendar = CzechOldCatholicCalendar::PerpetualCalendar.new(sanctorale: sanctorale)
