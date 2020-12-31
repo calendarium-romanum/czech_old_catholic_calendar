@@ -15,7 +15,17 @@ module CzechOldCatholicCalendar
 
     def day(*args, vespers: false)
       r = super(*args, vespers: vespers)
+
       r.celebrations.delete_if {|c| c.symbol == :saturday_memorial_bvm }
+
+      if r.date.month == 1 && r.date.day == 1
+        r.celebrations << Temporale.create_celebration(
+          I18n.t('temporale.solemnity.new_year'),
+          CzechOldCatholicCalendar::Ranks::SOLEMNITY_GENERAL,
+          CzechOldCatholicCalendar::Colours::WHITE
+        )
+      end
+
       r
     end
   end

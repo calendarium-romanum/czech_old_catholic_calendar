@@ -8,3 +8,5 @@ cs:
     easter:
       octave:
         ferial: '%{weekday} velikonoční'
+    solemnity:
+      new_year: Nový rok
