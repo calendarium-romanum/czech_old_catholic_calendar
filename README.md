@@ -1,12 +1,12 @@
-# CzechOldCatholicCalendar
+# czech_old_catholic_calendar
 
-This repository contains code of a Ruby gem implementing liturgical calendar
-of the [Czech Old Catholic Church][starokatolici].
+This repository contains a Ruby gem computing liturgical calendar
+of the [Czech Old Catholic Church (Starokatolická církev v ČR)][starokatolici].
 
 Since the calendar system is very similar to the post-Vatican II Roman Catholic one,
 functionality of the [calendarium-romanum][caro] gem is reused as much as possible.
-One of the main purposes of this project is to try out how un/suitable
-[calendarium-romanum][caro] is for such projects.
+(In fact, one of the main purposes of this project is to try out how un/suitable
+[calendarium-romanum][caro] is for such projects.)
 
 ## Installation
 
