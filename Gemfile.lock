@@ -2,7 +2,7 @@ PATH
   remote: .
   specs:
     czech_old_catholic_calendar (0.1.0)
-      calendarium-romanum (= 0.8.0)
+      calendarium-romanum (~> 0.8.0)
 
 GEM
   remote: https://rubygems.org/
