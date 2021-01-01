@@ -1,5 +1,7 @@
 # czech_old_catholic_calendar
 
+[![Build Status](https://travis-ci.org/calendarium-romanum/czech_old_catholic_calendar.svg?branch=master)](https://travis-ci.org/calendarium-romanum/czech_old_catholic_calendar)
+
 This repository contains a Ruby gem computing liturgical calendar
 of the [Czech Old Catholic Church (Starokatolická církev v ČR)][starokatolici].
 
