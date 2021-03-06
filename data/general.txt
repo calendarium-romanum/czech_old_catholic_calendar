@@ -5,145 +5,145 @@ locale: cs
 ---
 
 = 1
-2 : Basila Velikého a Řehoře Naziánského, biskupů a učitelů církve
-13 : Hilaria z Poitiers, biskupa a učitele církve
-17 : Antonína, poustevníka a opata
+2 basil_gregory : Basila Velikého a Řehoře Naziánského, biskupů a učitelů církve
+13 hilary : Hilaria z Poitiers, biskupa a učitele církve
+17 anthony_of_egypt : Antonína, poustevníka a opata
 20 : Fabiána a Šebestiána, mučedníků
-21 : Anežky Římské, mučednice
-22 : Vincence, jáhna a mučedníka
-25 f : Obrácení apoštola Pavla
-26 : Timoteje a Tita, biskupů
-28 : Tomáše Akvinského, kněze a učitele církve
+21 agnes : Anežky Římské, mučednice
+22 vincent_deacon : Vincence, jáhna a mučedníka
+25 f paul_conversion : Obrácení apoštola Pavla
+26 timothy_titus : Timoteje a Tita, biskupů
+28 aquinas : Tomáše Akvinského, kněze a učitele církve
 
 = 2
-2 f : Uvedení Páně do chrámu
-3 : Blažeje ze Sebasty, biskupa a mučedníka
-5 : Agáty, mučednice
-10 : Scholastiky z Nursie, řeholnice
-23 : Polykarpa ze Smyrny, biskupa a mučedníka
+2 f presentation_of_lord : Uvedení Páně do chrámu
+3 blase : Blažeje ze Sebasty, biskupa a mučedníka
+5 agatha : Agáty, mučednice
+10 scholastica : Scholastiky z Nursie, řeholnice
+23 polycarp : Polykarpa ze Smyrny, biskupa a mučedníka
 23 : Přemysla Coufala, kněze a mučedníka
-24 f : Matěje, apoštola
+24 f matthias : Matěje, apoštola
 25 : Josefa Toufara, kněze a mučedníka
 
 = 3
-7 : Perpetuy a Felicity, mučednic
-17 : Patrika, biskupa a misionáře
-18 : Cyrila Jeruzalémského, biskupa a učitele církve
-19 f : Josefa z Nazaretu
-25 s : Zvěstování Páně
+7 perpetua_felicity : Perpetuy a Felicity, mučednic
+17 patrick : Patrika, biskupa a misionáře
+18 cyril_of_jerusalem : Cyrila Jeruzalémského, biskupa a učitele církve
+19 f joseph : Josefa z Nazaretu
+25 s annunciation : Zvěstování Páně
 
 = 4
-11 : Stanislava z Krakova, biskupa a mučedníka
-23 f : Vojtěcha, biskupa a mučedníka
-24 : Jiřího, mučedníka
-25 f : Marka, evangelisty
-29 : Kateřiny Sienské, učitelky církve
+11 stanislaus : Stanislava z Krakova, biskupa a mučedníka
+23 f adalbert : Vojtěcha, biskupa a mučedníka
+24 george : Jiřího, mučedníka
+25 f mark : Marka, evangelisty
+29 catherine_of_siena : Kateřiny Sienské, učitelky církve
 
 = 5
-1 f : Filipa a Jakuba, apoštolů
-2 : Athanasia, biskupa a učitele církve
+1 f philip_james : Filipa a Jakuba, apoštolů
+2 athanasius : Athanasia, biskupa a učitele církve
 12 : Achillea, Nerea a Pankráce, mučedníků
-16 : Jana Nepomuckého, kněze a mučedníka
+16 john_nepomuk : Jana Nepomuckého, kněze a mučedníka
 20 : Jana Buly, kněze a mučedníka
 24 : Vincence z Lerina
-25 : Bedy Ctihodného, kněze a učitele církve
-27 : Augustina z Canterbury, biskupa a misionáře
-29 : Zdislavy z Lemberka
+25 bede_venerable : Bedy Ctihodného, kněze a učitele církve
+27 augustine_of_canterbury : Augustina z Canterbury, biskupa a misionáře
+29 zdislava : Zdislavy z Lemberka
 30 : Jany z Arku, mučednice
-31 : Navštívení Alžběty Pannou Marií
+31 visitation : Navštívení Alžběty Pannou Marií
 
 = 6
-2 : Marcelina a Petra, mučedníků
-3 : Justina, mučedníka
-5 : Bonifáce, biskupa a mučedníka
-6 : Norberta, biskupa
-9 : Efréma Syrského, jáhna a učitele církve
+2 marcellinus_peter : Marcelina a Petra, mučedníků
+3 justin : Justina, mučedníka
+5 boniface : Bonifáce, biskupa a mučedníka
+6 norbert : Norberta, biskupa
+9 ephrem : Efréma Syrského, jáhna a učitele církve
 10 : Josefa Štemberky z Lidic, mučedníka
-11 f : Barnabáše, apoštola
-13 : Antonína z Padovy, kněze
-15 : Víta, mučedníka
+11 f barnabas : Barnabáše, apoštola
+13 anthony_of_padua : Antonína z Padovy, kněze
+15 vitus : Víta, mučedníka
 21 : Mučedníků svobody víry
-24 s : Narození Jana Křtitele
-27 : Cyrila z Alexandrie, biskupa a učitele církve
-28 : Ireneje, biskupa a mučedníka
-29 s : Petra a Pavla, apoštolů
+24 s baptist_birth : Narození Jana Křtitele
+27 cyril_of_alexandria : Cyrila z Alexandrie, biskupa a učitele církve
+28 irenaeus : Ireneje, biskupa a mučedníka
+29 s peter_paul : Petra a Pavla, apoštolů
 
 = 7
-3 f : Tomáše, apoštola
-4 : Prokopa, opata sázavského
-5 f : Cyrila a Metoděje, apoštolů Slovanů
+3 f thomas_apostle : Tomáše, apoštola
+4 procopius : Prokopa, opata sázavského
+5 f cyril_methodius : Cyrila a Metoděje, apoštolů Slovanů
 6 f : Jana Husa a Jeronýma Pražského, mučedníků
-11 : Benedikta, opata
+11 benedict : Benedikta, opata
 13 : Markéty z Antiochie, mučednice
 15 : Rozeslání apoštolů
-22 : Marie z Magdaly
-25 f : Jakuba Staršího, apoštola
-26 : Jáchyma a Anny, rodičů Panny Marie
-27 : Gorazda, Klimenta, Nauma, Angelára a Sávy
-29 : Marty, Marie a Lazara z Betánie
+22 mary_magdalene : Marie z Magdaly
+25 f james : Jakuba Staršího, apoštola
+26 joachim_anne : Jáchyma a Anny, rodičů Panny Marie
+27 gorazd : Gorazda, Klimenta, Nauma, Angelára a Sávy
+29 martha : Marty, Marie a Lazara z Betánie
 
 = 8
-6 f : Proměnění Páně
-8 : Dominika, kněze
-10 f : Vavřince, jáhna, patrona katedrálního chrámu
-11 : Kláry z Assisi
+6 f transfiguration : Proměnění Páně
+8 dominic : Dominika, kněze
+10 f lawrence : Vavřince, jáhna, patrona katedrálního chrámu
+11 clare : Kláry z Assisi
 13 : Hippolyta, biskupa a mučedníka
-14 : Maxmiliána Kolbeho, mučedníka
+14 kolbe : Maxmiliána Kolbeho, mučedníka
 15 s : Úmrtí Panny Marie
 16 : Bratra Rogera z Taizé
-20 : Bernarda z Clairvaux, opata
-24 f : Bartoloměje, apoštola
-27 : Moniky
-28 : Augustina z Hippo, biskupa a učitele církve
-29 : Umučení Jana Křtitele
+20 bernard : Bernarda z Clairvaux, opata
+24 f bartholomew : Bartoloměje, apoštola
+27 monica : Moniky
+28 augustine : Augustina z Hippo, biskupa a učitele církve
+29 baptist_beheading : Umučení Jana Křtitele
 
 = 9
-3 : Řehoře, biskupa a učitele církve
-8 f : Narození Panny Marie
-13 : Jana Zlatoústého, biskupa a učitele církve
-14 f : Svátek svatého Kříže
-16 : Ludmily, mučednice
+3 gregory_great : Řehoře, biskupa a učitele církve
+8 f bvm_birth : Narození Panny Marie
+13 john_chrysostom : Jana Zlatoústého, biskupa a učitele církve
+14 f cross : Svátek svatého Kříže
+16 ludmila : Ludmily, mučednice
 17 : Cypriána z Kartága, biskupa, učitele církve a mučedníka
-21 f : Matouše, apoštola a evangelisty
-27 : Kosmy a Damiána, mučedníků
-28 s : Václava, mučedníka
-29 f : Michaela, Gabriela a Rafaela a všech andělů
-30 : Jeronýma, kněze a učitele církve
+21 f matthew : Matouše, apoštola a evangelisty
+27 cosmas_damian : Kosmy a Damiána, mučedníků
+28 s wenceslaus : Václava, mučedníka
+29 f archangels : Michaela, Gabriela a Rafaela a všech andělů
+30 jerome : Jeronýma, kněze a učitele církve
 
 = 10
 # ? Den díků za úrodu
 3 : Pavla Švandy, mučedníka
-4 : Františka z Assisi
-6 : Bruna, kněze
+4 francis_assisi : Františka z Assisi
+6 bruno : Bruna, kněze
 9 : Vintíře z Niederalteichu, poustevníka
-12 : Radima, biskupa
-15 : Terezie z Avily, učitelky církve
-16 : Hedviky, řeholnice
-17 : Ignáce z Antiochie, biskupa a mučedníka
-18 f : Lukáše, evangelisty
-28 : Šimona a Judy Tadeáše, apoštolů
+12 radim : Radima, biskupa
+15 teresa_avila : Terezie z Avily, učitelky církve
+16 hedwig : Hedviky, řeholnice
+17 ignatius_of_antioch : Ignáce z Antiochie, biskupa a mučedníka
+18 f luke : Lukáše, evangelisty
+28 simon_jude : Šimona a Judy Tadeáše, apoštolů
 
 = 11
-1 s : Všech svatých
-2 m : Památka zemřelých
+1 s all_saints : Všech svatých
+2 m all_souls : Památka zemřelých
 7 : Wilibrorda z Utrechtu, biskupa a misionáře
-10 : Lva Velikého, biskupa a učitele církve
-11 : Martina z Tours, biskupa
-13 : Anežky České, řeholnice
-22 : Cecílie, mučednice
-23 : Klementa Římského, biskupa a mučedníka
-25 : Kateřiny z Alexandrie, mučednice
-30 f : Ondřeje, apoštola
+10 leo_great : Lva Velikého, biskupa a učitele církve
+11 martin : Martina z Tours, biskupa
+13 agnes_of_bohemia : Anežky České, řeholnice
+22 cecilia : Cecílie, mučednice
+23 clement_i : Klementa Římského, biskupa a mučedníka
+25 catherine_of_alexandria : Kateřiny z Alexandrie, mučednice
+30 f andrew : Ondřeje, apoštola
 
 = 12
 4 : Barbory, mučednice
-6 : Mikuláše, biskupa
-7 : Ambrože, biskupa a učitele církve
-13 : Lucie, mučednice
-14 : Jana od Kříže, učitele církve
-26 f : Štěpána, jáhna, prvního mučedníka
-27 f : Jana, apoštola a evangelisty
-28 f : Betlémských dětí, mučedníků
-29 m : Tomáše Becketa, biskupa a mučedníka
+6 nicholas : Mikuláše, biskupa
+7 ambrose : Ambrože, biskupa a učitele církve
+13 lucy : Lucie, mučednice
+14 john_of_cross : Jana od Kříže, učitele církve
+26 f stephen : Štěpána, jáhna, prvního mučedníka
+27 f john_evangelist : Jana, apoštola a evangelisty
+28 f innocents : Betlémských dětí, mučedníků
+29 m becket : Tomáše Becketa, biskupa a mučedníka
 # at least according to the 2017 ordo Thomas Becket seems to be the only obligatory memorial
 # on the calendar

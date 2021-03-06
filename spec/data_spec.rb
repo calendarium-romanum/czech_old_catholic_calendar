@@ -20,4 +20,23 @@ RSpec.describe COCC::Data do
       end
     end
   end
+
+  it 'celebration symbols match those of calendarium-romanum' do
+    symbols = lambda do |data|
+      Set.new data
+                .load
+                .each_day
+                .flat_map {|_, celebrations| celebrations }
+                .collect(&:symbol)
+                .compact
+    end
+
+    cr_symbols = symbols.(CR::Data::GENERAL_ROMAN_ENGLISH) + symbols.(CR::Data::CZECH)
+    cocc_symbols = symbols.(COCC::Data::GENERAL)
+
+    # All COCC symbols are included in CR symbols,
+    # i.e. only celebrations shared with the General Roman Calendar or calendar of
+    # Czech Roman Catholic dioceses have (matching) symbols.
+    expect(cocc_symbols).to be < cr_symbols
+  end
 end
