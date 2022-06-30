@@ -1,5 +1,5 @@
 ---
-title: liturgický kalendář Starokatolické církve v CR
+title: liturgický kalendář Starokatolické církve v ČR
 locale: cs
 # source: table of contents of the Czech Old Catholic missal
 ---
