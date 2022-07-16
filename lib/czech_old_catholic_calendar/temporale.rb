@@ -42,25 +42,23 @@ module CzechOldCatholicCalendar
     private
 
     # overridden
-    def sunday(date)
-      r = super(date)
+    def sunday(date, season_week)
+      r = super(date, season_week)
 
       return r if r.nil?
 
       # TODO we duplicate logic from the parent class. Since special Sunday names
       #   are used in the Roman Catholic church, too, support for this should be moved
       #   upstream to calendarium-romanum
-      season = season(date)
-      week = season_week(season, date)
-      if season == CzechOldCatholicCalendar::Seasons::ORDINARY && [2, 34].include?(week)
-        return r.change(title: r.title + ' - ' + I18n.t("temporale.ordinary.sunday_name.#{week}"))
+      if season_week.season == CzechOldCatholicCalendar::Seasons::ORDINARY && [2, 34].include?(season_week.week)
+        return r.change(title: r.title + ' - ' + I18n.t("temporale.ordinary.sunday_name.#{season_week.week}"))
       end
 
       r
     end
 
-    def ferial(date)
-      r = super(date)
+    def ferial(date, season_week = nil)
+      r = super(date, season_week)
 
       if r.rank == CzechOldCatholicCalendar::Ranks::FERIAL_PRIVILEGED
         return r.change(rank: CzechOldCatholicCalendar::Ranks::FERIAL)
