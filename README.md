@@ -15,7 +15,8 @@ functionality of the [calendarium-romanum][caro] gem is reused as much as possib
 Based on comparison of computed results with official ordo published by the church
 ([2015](https://docplayer.cz/26220917-Liturgicky-kalendar-2015-2016-biskupsky-ordinariat-starokatolicke-cirkve-v-cr-praha-2015.html),
 [2016](https://docplayer.cz/45554176-Liturgicky-kalendar-2016-2017.html),
-[2017](https://docplayer.cz/68322372-Liturgicky-kalendar-2017-2018-praha-2017.html)),
+[2017](https://docplayer.cz/68322372-Liturgicky-kalendar-2017-2018-praha-2017.html)
+[2020](http://starokatolici.eu/wp-content/uploads/2020/11/direkt%C3%A1%C5%99-2020-2021.pdf)),
 the library seems to be feature-complete, or at least very close to it.
 Bug reports are welcome.
 
