@@ -61,7 +61,7 @@ day = calendar[Date.today]
 
 ## License
 
-`czech_roman_catholic_calendar` is free software under the terms of the MIT license
+`czech_old_catholic_calendar` is free software under the terms of the MIT license
 (see [LICENSE](/LICENSE)).
 
 ## Development
